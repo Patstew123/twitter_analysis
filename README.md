@@ -26,14 +26,19 @@ We note at various points where alternative sub-sections of the data can be appl
 
 Smell
 twitter_df = twitter_df.loc[twitter_df['smell'] == 'Yes']
+
 Sound
 twitter_df = twitter_df.loc[twitter_df['sound'] == 'Yes']
+
 Pre-COVID
 twitter_df = twitter_df.loc[twitter_df['created_at'] <= "2020-03-20"]
+
 Post-COVID
 twitter_df = twitter_df.loc[twitter_df['created_at'] >= "2020-03-20"]
+
 Just positive tweets
 twitter_df = twitter_df.loc[twitter_df['Sentiment'] == 'Positive']
+
 Just negative tweets
 twitter_df = twitter_df.loc[twitter_df['Sentiment'] == 'Negative']
 
