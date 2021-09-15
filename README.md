@@ -24,21 +24,21 @@ In this file we apply the latent dirichlet allocation technique on our twitter d
 Subsections of the data used
 We note at various points where alternative sub-sections of the data can be applied in each Jupyter notebook file. We have listed these below for your reference.
 
-Smell
+Smell:
 twitter_df = twitter_df.loc[twitter_df['smell'] == 'Yes']
 
-Sound
+Sound:
 twitter_df = twitter_df.loc[twitter_df['sound'] == 'Yes']
 
-Pre-COVID
+Pre-COVID:
 twitter_df = twitter_df.loc[twitter_df['created_at'] <= "2020-03-20"]
 
-Post-COVID
+Post-COVID:
 twitter_df = twitter_df.loc[twitter_df['created_at'] >= "2020-03-20"]
 
-Just positive tweets
+Just positive tweets:
 twitter_df = twitter_df.loc[twitter_df['Sentiment'] == 'Positive']
 
-Just negative tweets
+Just negative tweets:
 twitter_df = twitter_df.loc[twitter_df['Sentiment'] == 'Negative']
 
