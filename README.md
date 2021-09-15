@@ -1,7 +1,6 @@
 This is the code file for my dissertation focussed on understanding user perceptions and experiences of the Oxford Street Brand.
 
-We have provided all the relevant datasets in the file including the raw twitter data (data.csv), processed twitter data (processed_dataset.csv), all relevant lexicons and Belgravia data
-for comparison. Warning if file "Twitter Data Pull for Oxford Street.ipynb" is run then this will override the current Twitter data that has been pulled for the Oxford Street District.
+We have provided all the relevant code, all relevant lexicons and Belgravia data for comparison. However, the data for the Oxford Street needs to be generated using your own Twitter API key.
 
 To be run in this order:
 
